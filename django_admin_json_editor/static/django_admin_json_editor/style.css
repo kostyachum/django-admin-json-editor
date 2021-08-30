@@ -11,3 +11,11 @@ div.sceditor-container {
 }
 
 }
+
+/*Fixes for property selector*/
+.property-selector label {
+    float: none;
+}
+.property-selector .form-check-label:after {
+    display: none  !important;
+}
